@@ -8,14 +8,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JUBJUB - SHARE 페이지</title> <%-- 페이지 타이틀을 SHARE로 변경 --%>
+<title>JUBJUB - SHARE 페이지</title> 
    
     <link rel="stylesheet" href="../marketcss/index.css">
     <style>
-        /*
-           이 스타일은 BUY 페이지에서 사용한 것과 동일해.
-           index.css에 공통으로 넣어두는 게 좋겠지?
-        */
+        
         .content {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -75,7 +72,7 @@
         .item-price {
             font-size: 1.3em;
             font-weight: bold;
-            color: #28a745; /* 나눔이니까 초록색으로 강조? */
+            color: #28a745; 
             margin-top: auto;
             text-align: right;
         }
