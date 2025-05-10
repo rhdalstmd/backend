@@ -12,80 +12,76 @@
    
     <link rel="stylesheet" href="../marketcss/index.css">
     <style>
-        /*
-           네 index.css 파일에 .content 스타일이 있지만,
-           상품 개별 아이템에 대한 스타일은 여기에 추가하거나 index.css에 같이 넣어줘야 해.
-           여기서는 예시로 여기에 포함시킬게.
-        */
+        
         .content {
-             /* 네 index.css에 이미 정의되어 있지만, 여기서는 그리드 레이아웃만 추가 */
+             
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* 반응형 그리드 */
-            gap: 20px; /* 상품 아이템 간 간격 */
-            padding: 20px; /* .content 안쪽 여백 */
-            background-color: #c7eef7; /* 네 CSS에 있는 배경색 유지 */
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); 
+            gap: 20px; 
+            padding: 20px; 
+            background-color: #c7eef7; 
         }
 
         .item {
-            border: 1px solid #e0e0e0; /* 아이템 테두리 */
-            border-radius: 8px; /* 아이템 모서리 둥글게 */
-            overflow: hidden; /* 이미지 등 넘치는 내용 숨김 */
-            text-decoration: none; /* 링크 밑줄 제거 */
-            color: #333; /* 글자 색상 */
+            border: 1px solid #e0e0e0; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            text-decoration: none; 
+            color: #333; 
             display: flex;
-            flex-direction: column; /* 세로 정렬 (이미지 위, 정보 아래) */
-            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* 호버 효과 */
-            background-color: #fff; /* 각 상품 아이템 배경색 */
+            flex-direction: column; 
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+            background-color: #fff; 
         }
         .item:hover {
-            transform: translateY(-5px); /* 마우스 올리면 살짝 위로 */
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* 마우스 올리면 그림자 */
+            transform: translateY(-5px); 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
         }
         .item-image {
             width: 100%;
-            height: 180px; /* 이미지 높이 고정 */
-            overflow: hidden; /* 이미지가 정해진 높이 넘어가면 자르기 */
+            height: 180px; 
+            overflow: hidden; 
         }
         .item-image img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* 이미지 비율 유지하며 꽉 채우기 */
+            object-fit: cover; 
             display: block;
         }
         .item-details {
-            padding: 12px; /* 상세 정보 부분 안쪽 여백 */
-            flex-grow: 1; /* 남은 공간을 채우도록 확장 */
+            padding: 12px; 
+            flex-grow: 1; 
             display: flex;
-            flex-direction: column; /* 상세 정보 내용도 세로 정렬 */
+            flex-direction: column;
         }
         .item-details h4 {
             margin-top: 0;
             margin-bottom: 6px;
             font-size: 1.1em;
             font-weight: 600;
-            white-space: nowrap; /* 제목은 한 줄로 */
-            overflow: hidden; /* 넘치면 숨김 */
-            text-overflow: ellipsis; /* 넘치면 ... 표시 */
+            white-space: nowrap;
+            overflow: hidden; 
+            text-overflow: ellipsis; 
             color: #000;
         }
          .item-details p {
             margin-bottom: 4px;
             font-size: 0.9em;
             color: #666;
-            line-height: 1.4; /* 줄 간격 */
+            line-height: 1.4; 
         }
         .item-price {
             font-size: 1.3em;
             font-weight: bold;
-            color: #007bff; /* 가격 색상 강조 */
-            margin-top: auto; /* 가격을 상세 정보 박스 하단에 붙이기 */
-            text-align: right; /* 가격 오른쪽 정렬 */
+            color: #007bff; 
+            margin-top: auto; 
+            text-align: right; 
         }
 
-        /* 필터 CSS는 네 index.css에 있는 걸 사용한다고 가정 */
-        /* 혹시 radio/checkbox label 클릭 영역 넓히고 싶으면 여기에 추가 */
+       
+        
         .filter label {
-             cursor: pointer; /* 마우스 커서를 손가락 모양으로 */
+             cursor: pointer; 
         }
 
 
