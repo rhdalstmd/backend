@@ -106,7 +106,6 @@
         <a href="index.jsp" id="icon">JUBJUB</a>
         <div class="navmenu">
             <a href="buy.jsp">BUY</a>
-            <a href="buyboard.jsp">삽니다</a>
             <a href="sell.jsp">SELL</a>
             <a href="change.jsp">CHANGE</a>
             <a href="share.jsp">SHARE</a>
