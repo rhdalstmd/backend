@@ -108,19 +108,8 @@
             <h3>필터</h3>
             <label for="ableFilter"><input type="checkbox" name="able" id="ableFilter" value="able">나눔가능만 보기</label> 
             <hr>
-            <p>가격</p>
             
-            <input type="text" id="minPrice" placeholder="최소가격" value="0" readonly> ~ 
-            <input type="text" id="maxPrice" placeholder="최대가격" value="0" readonly><br> 
-            <hr>
-            <p>상태</p>
-           
-            <label for="statusS"><input type="radio" name="status" value="s" id="statusS" >S</label><br>
-            <label for="statusA"><input type="radio" name="status" value="a" id="statusA" >A</label><br>
-            <label for="statusB"><input type="radio" name="status" value="b" id="statusB" >B</label><br>
-            <label for="statusC"><input type="radio" name="status" value="c" id="statusC" >C</label><br>
-            <label for="statusD"><input type="radio" name="status" value="d" id="statusD" >D</label>
-            <hr>
+          
             <p>거래방법</p>
            
             <label for="methodMeet"><input type="checkbox" name="method" value="meet" id="methodMeet" >직거래</label><br>
@@ -132,67 +121,67 @@
 
             <a href="detail.jsp?itemId=101" class="item"> 
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=필요한분께 나눔해요!" alt="나눔 물품 이미지 1"> 
+                    <img src="https://img.freepik.com/free-photo/close-up-view-back-school-concept-arrangement_23-2148586735.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="나눔 물품 이미지 1"> 
                 </div>
                 <div class="item-details">
                     <h4>[나눔] 안 쓰는 책상 정리용품</h4>
-                    <p>상태: B | 거래방법: 직거래 (지역: 강남)</p>
+                    <p> 거래방법: 직거래 (지역: 강남)</p>
                     <p class="item-price">나눔 🎁</p> 
                 </div>
             </a> 
 
              <a href="detail.jsp?itemId=102" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=옷 나눔" alt="나눔 물품 이미지 2">
+                    <img src="https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448751.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="나눔 물품 이미지 2">
                 </div>
                 <div class="item-details">
                     <h4>[나눔] 사이즈 안 맞는 옷 몇 벌</h4>
-                    <p>상태: C | 거래방법: 택배거래 (착불)</p>
-                    <p class="item-price">0원</p>
+                    <p> 거래방법: 택배거래 (착불)</p>
+                    <p class="item-price">나눔</p>
                 </div>
             </a>
 
              <a href="detail.jsp?itemId=103" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=전자제품 부품" alt="나눔 물품 이미지 3">
+                    <img src="https://img.freepik.com/free-photo/young-woman-cleaning-her-laptop-key-board_23-2149402395.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="나눔 물품 이미지 3">
                 </div>
                 <div class="item-details">
                     <h4>[나눔] 오래된 노트북 부품 (필요한 분)</h4>
-                    <p>상태: D | 거래방법: 직거래, 택배거래 (착불)</p>
+                    <p> 거래방법: 직거래, 택배거래 (착불)</p>
                     <p class="item-price">나눔</p>
                 </div>
             </a>
 
             <a href="detail.jsp?itemId=104" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=애기 옷 나눔" alt="나눔 물품 이미지 4">
+                    <img src="https://img.freepik.com/premium-photo/stylish-elegant-newborn-baby-clothes-accessories-toys-collage-neutral-pastel-beige-background-basic-bodysuit-hat-pacifier-socks-flat-lay-top-view_408798-10934.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="나눔 물품 이미지 4">
                 </div>
                 <div class="item-details">
                     <h4>[나눔] 아기들 금방 작아진 옷</h4>
-                    <p>상태: A | 거래방법: 직거래 (지역: 분당)</p>
-                    <p class="item-price">0원</p>
+                    <p> 거래방법: 직거래 (지역: 분당)</p>
+                    <p class="item-price">나눔</p>
                 </div>
             </a>
 
             <a href="detail.jsp?itemId=105" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=사용감 있는 책" alt="나눔 물품 이미지 5">
+                    <img src="https://img.freepik.com/free-vector/watercolor-world-book-day-vertical-poster-template_23-2149310369.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="나눔 물품 이미지 5">
                 </div>
                 <div class="item-details">
                     <h4>[나눔] 사용감 있는 소설책들</h4>
-                    <p>상태: C | 거래방법: 택배거래 (착불 선호)</p>
+                    <p> 거래방법: 택배거래 (착불 선호)</p>
                     <p class="item-price">나눔</p>
                 </div>
             </a>
 
              <a href="detail.jsp?itemId=106" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=이사하면서 나눔" alt="나눔 물품 이미지 6">
+                    <img src="https://img.freepik.com/free-psd/modern-wooden-chair-design-elegant-comfortable-seating_191095-81468.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="나눔 물품 이미지 6">
                 </div>
                 <div class="item-details">
                     <h4>[나눔] 이사 정리 중 잡동사니</h4>
-                    <p>상태: D | 거래방법: 직거래만 (오늘까지)</p>
-                    <p class="item-price">0원</p>
+                    <p> 거래방법: 직거래만 (오늘까지)</p>
+                    <p class="item-price">나눔</p>
                 </div>
             </a>
 
