@@ -117,14 +117,7 @@
             <input type="text" id="minPrice" placeholder="최소가격"> ~
             <input type="text" id="maxPrice" placeholder="최대가격"><br>
             <hr>
-            <p>상태</p>
-           
-            <label for="statusS"><input type="radio" name="status" value="s" id="statusS" >S</label><br>
-            <label for="statusA"><input type="radio" name="status" value="a" id="statusA" >A</label><br>
-            <label for="statusB"><input type="radio" name="status" value="b" id="statusB" >B</label><br>
-            <label for="statusC"><input type="radio" name="status" value="c" id="statusC" >C</label><br>
-            <label for="statusD"><input type="radio" name="status" value="d" id="statusD" >D</label>
-            <hr>
+            
             <p>거래방법</p>
            
             <label for="methodMeet"><input type="checkbox" name="method" value="meet" id="methodMeet" >직거래</label><br>
@@ -136,66 +129,68 @@
 
             <a href="detail.jsp?itemId=1" class="item"> 
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=멋진 상품 1" alt="상품 이미지 1"> <%-- 임시 이미지 --%>
+                    <img src="https://img.freepik.com/free-vector/realistic-front-view-smartphone-mockup-mobile-iphone-purple-frame-with-blank-white-display-vector_90220-959.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="상품 이미지 1"> <%-- 임시 이미지 --%>
                 </div>
                 <div class="item-details">
                     <h4>[판매] 거의 새것같은 최신형 스마트폰</h4>
-                    <p>상태: S | 거래방법: 직거래</p>
+                   <p>
+                   거래방법: 직거래만 가능
+                   </p>
                     <p class="item-price">1,000,000원</p>
                 </div>
             </a> 
 
              <a href="detail.jsp?itemId=2" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=게임용 키보드" alt="상품 이미지 2">
+                    <img src="https://img.freepik.com/free-photo/keyboard-with-neon-lights-high-angle_23-2149680226.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="상품 이미지 2">
                 </div>
                 <div class="item-details">
                     <h4>[판매] 기계식 게이밍 키보드 (청축)</h4>
-                    <p>상태: A | 거래방법: 택배거래</p>
+                     거래방법: 택배거래</p>
                     <p class="item-price">90,000원</p>
                 </div>
             </a>
 
              <a href="detail.jsp?itemId=3" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=개발자 필수템" alt="상품 이미지 3">
+                    <img src="https://img.freepik.com/free-psd/modern-white-office-chair-with-chrome-accents_191095-80595.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="상품 이미지 3">
                 </div>
                 <div class="item-details">
                     <h4>[판매] 인체공학 사무용 의자</h4>
-                    <p>상태: B | 거래방법: 직거래만 가능</p>
+                    <p> 거래방법: 직거래만 가능</p>
                     <p class="item-price">350,000원</p>
                 </div>
             </a>
 
             <a href="detail.jsp?itemId=4" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=나눔! IT 서적" alt="상품 이미지 4">
+                    <img src="https://img.freepik.com/free-vector/geometric-cover-collection_52683-7214.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="상품 이미지 4">
                 </div>
                 <div class="item-details">
-                    <h4>[나눔] IT 관련 서적 여러 권</h4>
-                    <p>상태: C | 거래방법: 택배거래 (착불)</p>
-                    <p class="item-price">0원</p> 
+                    <h4>[판매] IT 관련 서적 여러 권</h4>
+                    <p> 거래방법: 택배거래 (착불)</p>
+                    <p class="item-price">10,000원</p> 
                 </div>
             </a>
 
             <a href="detail.jsp?itemId=5" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=축구공" alt="상품 이미지 5">
+                    <img src="https://img.freepik.com/free-psd/soccer-ball-isolated_23-2151387865.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="상품 이미지 5">
                 </div>
                 <div class="item-details">
                     <h4>[판매] 공식 축구공 (거의 안씀)</h4>
-                    <p>상태: S | 거래방법: 직거래, 택배거래</p>
+                    <p> 거래방법: 직거래, 택배거래</p>
                     <p class="item-price">50,000원</p>
                 </div>
             </a>
 
              <a href="detail.jsp?itemId=6" class="item">
                 <div class="item-image">
-                    <img src="https://via.placeholder.com/400x240?text=오래된 부품" alt="상품 이미지 6">
+                    <img src="https://img.freepik.com/premium-photo/computer-parts-with-harddisk-ram-cpu-graphics-card-motherboard_160097-358.jpg?ga=GA1.1.1051672707.1745032245&semt=ais_hybrid&w=740" alt="상품 이미지 6">
                 </div>
                 <div class="item-details">
                     <h4>[판매] 구형 컴퓨터 부품 일괄 처분</h4>
-                    <p>상태: D | 거래방법: 택배거래</p>
+                    <p> 거래방법: 택배거래</p>
                     <p class="item-price">20,000원</p>
                 </div>
             </a>
