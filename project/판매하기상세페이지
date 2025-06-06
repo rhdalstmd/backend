@@ -611,61 +611,9 @@
                             </div>
                         </div>
                         
-                        <!-- 관리 기능 -->
-                        <div class="management-card">
-                            <h3>⚙️ 상품 관리</h3>
-                            <div class="management-actions">
-                                <button class="action-btn btn-primary" onclick="boostProduct()">
-                                    🚀 끌어올리기
-                                </button>
-                                <button class="action-btn btn-secondary" onclick="shareProduct()">
-                                    📤 공유하기
-                                </button>
-                                <button class="action-btn btn-secondary" onclick="viewAnalytics()">
-                                    📈 상세 통계
-                                </button>
-                                <button class="action-btn btn-secondary" onclick="duplicateProduct()">
-                                    📋 복사하여 등록
-                                </button>
-                            </div>
-                        </div>
                         
-                        <!-- 문의 관리 -->
-                        <div class="inquiries-card">
-                            <h3>💬 최근 문의 <span class="inquiry-badge">3</span></h3>
-                            <div class="inquiry-item">
-                                <div class="inquiry-avatar">김</div>
-                                <div class="inquiry-content">
-                                    <div class="inquiry-name">김구매자</div>
-                                    <div class="inquiry-message">직거래 가능한 시간이 언제인가요?</div>
-                                </div>
-                                <div class="inquiry-time">2시간 전</div>
-                            </div>
-                            <div class="inquiry-item">
-                                <div class="inquiry-avatar">이</div>
-                                <div class="inquiry-content">
-                                    <div class="inquiry-name">이관심자</div>
-                                    <div class="inquiry-message">80만원에 가능할까요?</div>
-                                </div>
-                                <div class="inquiry-time">5시간 전</div>
-                            </div>
-                            <div class="inquiry-item">
-                                <div class="inquiry-avatar">박</div>
-                                <div class="inquiry-content">
-                                    <div class="inquiry-name">박구매희망</div>
-                                    <div class="inquiry-message">케이스 포함인가요?</div>
-                                </div>
-                                <div class="inquiry-time">1일 전</div>
-                            </div>
-                            <button class="action-btn btn-primary" onclick="viewAllInquiries()" style="margin-top: 12px;">
-                                모든 문의 보기
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                        
+                        
     
     <!-- 상태 변경 모달 -->
     <div class="modal" id="statusModal">
@@ -768,35 +716,6 @@
             }
         }
         
-        // 상세 통계 보기
-        function viewAnalytics() {
-            alert('상세 통계 페이지로 이동합니다.');
-        }
-        
-        // 복사하여 등록
-        function duplicateProduct() {
-            if (confirm('이 상품과 동일한 정보로 새 상품을 등록하시겠습니까?')) {
-                alert('상품 등록 페이지로 이동합니다.');
-            }
-        }
-        
-        // 모든 문의 보기
-        function viewAllInquiries() {
-            alert('문의 관리 페이지로 이동합니다.');
-        }
-        
-        // 뒤로가기
-        function goBack() {
-            alert('내 상품 목록으로 돌아갑니다.');
-        }
-        
-        // 모달 외부 클릭 시 닫기
-        window.onclick = function(event) {
-            const modal = document.getElementById('statusModal');
-            if (event.target === modal) {
-                closeStatusModal();
-            }
-        }
-    </script>
+       
 </body>
 </html>
