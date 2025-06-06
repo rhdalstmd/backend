@@ -706,7 +706,7 @@
         const products = [
             {
                 id: 1,
-                title: "아이폰 14 Pro 128GB 딥퍼플 (배터리 100%)",
+                title: "아이폰 14 Pro 128GB 딥퍼플 (배터리 100%) 삽니다",
                 price: 850000,
                 location: "강남구",
                 timeAgo: "2시간 전",
@@ -716,7 +716,7 @@
             },
             {
                 id: 2,
-                title: "맥북 에어 M2 13인치 실버 (2022년형)",
+                title: "맥북 에어 M2 13인치 실버 (2022년형) 삽니다",
                 price: 1200000,
                 location: "서초구",
                 timeAgo: "5시간 전",
@@ -726,7 +726,7 @@
             },
             {
                 id: 3,
-                title: "에어팟 프로 2세대 새상품 미개봉",
+                title: "에어팟 프로 2세대 새상품 미개봉 삽니다",
                 price: 280000,
                 location: "송파구",
                 timeAgo: "1일 전",
@@ -736,7 +736,7 @@
             },
             {
                 id: 4,
-                title: "닌텐도 스위치 OLED 화이트 + 게임 5개",
+                title: "닌텐도 스위치 OLED 화이트 + 게임 5개 삽니다",
                 price: 350000,
                 location: "마포구",
                 timeAgo: "2일 전",
@@ -746,7 +746,7 @@
             },
             {
                 id: 5,
-                title: "갤럭시 S23 Ultra 256GB 팬텀블랙",
+                title: "갤럭시 S23 Ultra 256GB 팬텀블랙 삽니다",
                 price: 750000,
                 location: "강서구",
                 timeAgo: "3일 전",
@@ -756,7 +756,7 @@
             },
             {
                 id: 6,
-                title: "아이패드 프로 11인치 3세대 128GB WiFi",
+                title: "아이패드 프로 11인치 3세대 128GB WiFi 삽니다",
                 price: 650000,
                 location: "노원구",
                 timeAgo: "4일 전",
