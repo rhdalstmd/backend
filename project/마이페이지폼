@@ -502,7 +502,7 @@
                         </div>
                     </div>
                     <div class="profile-actions">
-                        
+                        <button class="btn btn-primary" onclick="editProfile()">프로필 수정</button>
                         <button class="btn btn-secondary" onclick="logout()">로그아웃</button>
                     </div>
                 </div>
@@ -637,7 +637,7 @@
                 <!-- 사이드바 -->
                 <div class="sidebar">
                     <!-- 빠른 액션 -->
-                    
+                   
 
                     <!-- 최근 활동 -->
                     <div class="content-section">
@@ -709,7 +709,10 @@
             alert(`게시글 ${id}번의 상세 페이지로 이동합니다.`);
         }
         
-        
+        // 프로필 수정
+        function editProfile() {
+            alert('프로필 수정 페이지로 이동합니다.');
+        }
         
         // 로그아웃
         function logout() {
@@ -719,11 +722,7 @@
             }
         }
         
-        // 상품 등록
-        
-        
-        // 채팅 목록
-        
+      
         
         // 페이지 로드 시 초기화
         window.addEventListener('load', function() {
