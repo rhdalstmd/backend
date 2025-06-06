@@ -489,7 +489,7 @@
                 <div class="product-header">
                     <div>
                         <span class="status-badge status-selling" id="statusBadge">판매중</span>
-                        <h1 class="product-title">아이폰 14 Pro 128GB 딥퍼플 (배터리 100%)</h1>
+                        <h1 class="product-title">삼성전자 윈도우핏 AW05A5171TZA </h1>
                         <div class="product-meta">
                             <span>📅 2024.01.15 등록</span>
                             <span>👁️ 조회 247회</span>
@@ -510,7 +510,7 @@
                         <!-- 이미지 갤러리 -->
                         <div class="image-gallery">
                             <div class="main-image">
-                                <img src="/placeholder.svg?height=400&width=600" alt="아이폰 14 Pro" id="mainImage">
+                                <img src="/placeholder.svg?height=400&width=600" alt="삼성전자 윈도우핏 " id="mainImage">
                                 <div class="image-counter">1 / 5</div>
                             </div>
                             <div class="thumbnail-list">
@@ -567,18 +567,18 @@
                         <!-- 상품 설명 -->
                         <div class="description">
                             <h3>📝 상품 설명</h3>
-                            <div class="description-content">작년 12월에 구매한 아이폰 14 Pro 128GB 딥퍼플 색상입니다.
+                            <div class="description-content">삼성전자 윈도우핏 AW05A5171TZA입니다.
 
-배터리 상태 100%로 매우 좋은 상태이며, 케이스와 강화유리를 항상 착용해서 사용했습니다.
+고장 한번 없는 매우 좋은 상태이며, 케이스와 강화유리를 항상 착용해서 사용했습니다.
 
 구성품:
-- 아이폰 14 Pro 본체
+- 삼성전자 윈도우핏 AW05A5171TZA 
 - 정품 박스
-- USB-C to Lightning 케이블
+-  케이블
 - 설명서
 
 추가 제공:
-- 애플 정품 실리콘 케이스 (딥퍼플)
+
 - 강화유리 필름 (부착된 상태)
 
 직거래는 강남역 근처에서 가능하며, 택배거래도 가능합니다.
@@ -757,7 +757,7 @@
         function shareProduct() {
             if (navigator.share) {
                 navigator.share({
-                    title: '아이폰 14 Pro 128GB 딥퍼플',
+                    title: '삼성전자 윈도우핏 AW05A5171TZA',
                     text: '중고마켓에서 판매 중인 상품입니다.',
                     url: window.location.href
                 });
