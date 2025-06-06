@@ -485,23 +485,22 @@
                     
                     <!-- 상품 설명 -->
                     <div class="product-detail-description">
-                        <p>아이폰 14 Pro 128GB 딥퍼플 색상입니다. 배터리 효율 100%이고 외관상 기스나 손상 없는 깨끗한 상태입니다. 케이스와 강화유리 필름을 항상 사용해서 새것과 다름없습니다.</p>
-                        <p>박스, 충전기, 이어폰 모두 포함되어 있습니다. 직거래는 강남역 근처에서 가능합니다.</p>
+                        <p>아이폰 14 Pro 128GB 딥퍼플 색상구합니다</p>
+                        <p>박스, 충전기, 이어폰 모두 포함되어 있으면 좋고 직거래는 강남역 근처에서 가능합니다.</p>
                     </div>
                     
                     <!-- 판매자 정보 -->
                     <div class="product-detail-seller">
-                        <div class="seller-avatar">김</div>
+                        <div class="seller-avatar">공</div>
                         <div class="seller-info">
-                            <div class="seller-name">김판매자</div>
+                            <div class="seller-name">공민승</div>
                             <div class="seller-products">판매상품 15개</div>
                             <div class="seller-rating">
                                 <span class="rating-stars">★★★★☆</span>
                                 <span>(4.8/5)</span>
                             </div>
                         </div>
-                        <button class="btn-outline" style="padding: 8px 16px; font-size: 14px;" onclick="viewSellerProducts()">
-                            판매자 상품 보기
+                        
                         </button>
                     </div>
                     
@@ -516,8 +515,8 @@
                             <span>채팅하기</span>
                         </button>
                         <button class="action-btn btn-primary" onclick="makeCall()">
-                            <span>📞</span>
-                            <span>전화하기</span>
+                            <span></span>
+                            <span>수정하기</span>
                         </button>
                     </div>
                     
@@ -529,7 +528,7 @@
                         </tr>
                         <tr>
                             <th>상태</th>
-                            <td>중고 - 상태 좋음</td>
+                            <td>중고 - 상태 좋음 선호</td>
                         </tr>
                         <tr>
                             <th>거래 방식</th>
@@ -543,73 +542,7 @@
                 </div>
             </div>
             
-            <!-- 관련 상품 -->
-            <div class="related-products">
-                <h3>이런 상품은 어때요?</h3>
-                <div class="product-grid">
-                    <button class="product-card" onclick="showRelatedProduct(1)">
-                        <div class="product-image">
-                            <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=아이폰+13+Pro" alt="아이폰 13 Pro">
-                            <button class="like-btn" onclick="toggleLike(event, 1)">❤️</button>
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">아이폰 13 Pro 256GB 그래파이트</h3>
-                            <p class="product-price">750,000원</p>
-                            <div class="product-meta">
-                                <span>📍 서초구</span>
-                                <span>3시간 전</span>
-                            </div>
-                        </div>
-                    </button>
-                    
-                    <button class="product-card" onclick="showRelatedProduct(2)">
-                        <div class="product-image">
-                            <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=갤럭시+S23" alt="갤럭시 S23">
-                            <button class="like-btn" onclick="toggleLike(event, 2)">❤️</button>
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">갤럭시 S23 Ultra 512GB</h3>
-                            <p class="product-price">950,000원</p>
-                            <div class="product-meta">
-                                <span>📍 강남구</span>
-                                <span>1일 전</span>
-                            </div>
-                        </div>
-                    </button>
-                    
-                    <button class="product-card" onclick="showRelatedProduct(3)">
-                        <div class="product-image">
-                            <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=아이폰+14" alt="아이폰 14">
-                            <button class="like-btn" onclick="toggleLike(event, 3)">❤️</button>
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">아이폰 14 256GB 미드나이트</h3>
-                            <p class="product-price">780,000원</p>
-                            <div class="product-meta">
-                                <span>📍 송파구</span>
-                                <span>5시간 전</span>
-                            </div>
-                        </div>
-                    </button>
-                    
-                    <button class="product-card" onclick="showRelatedProduct(4)">
-                        <div class="product-image">
-                            <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=애플워치" alt="애플워치">
-                            <button class="like-btn" onclick="toggleLike(event, 4)">❤️</button>
-                        </div>
-                        <div class="product-info">
-                            <h3 class="product-title">애플워치 시리즈 8 GPS 45mm</h3>
-                            <p class="product-price">350,000원</p>
-                            <div class="product-meta">
-                                <span>📍 마포구</span>
-                                <span>1일 전</span>
-                            </div>
-                        </div>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
+            
 
     <script>
         // 이미지 갤러리 기능
@@ -640,10 +573,7 @@
             alert('판매자와의 채팅방으로 이동합니다.');
         }
         
-        // 전화하기 기능
-        function makeCall() {
-            alert('판매자에게 전화 연결을 시도합니다.');
-        }
+        
         
         // 판매자 상품 보기
         function viewSellerProducts() {
