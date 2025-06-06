@@ -115,6 +115,28 @@
             font-size: 16px;
         }
 
+        /* 등록 버튼 스타일 */
+        .register-btn {
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .register-btn:hover {
+            background-color: #2563eb;
+            transform: translateY(-1px);
+        }
+
         .user-menu {
             display: flex;
             gap: 8px;
@@ -132,6 +154,33 @@
 
         .icon-btn:hover {
             background-color: #f3f4f6;
+        }
+
+        /* 플로팅 등록 버튼 */
+        .floating-register-btn {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 64px;
+            height: 64px;
+            background-color: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+            transition: all 0.2s;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .floating-register-btn:hover {
+            background-color: #2563eb;
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
         }
 
         /* 구매 페이지 스타일 */
@@ -519,6 +568,19 @@
                 font-size: 14px;
             }
 
+            .register-btn {
+                padding: 8px 12px;
+                font-size: 12px;
+            }
+
+            .floating-register-btn {
+                width: 56px;
+                height: 56px;
+                bottom: 16px;
+                right: 16px;
+                font-size: 20px;
+            }
+
             .content-layout {
                 grid-template-columns: 1fr;
             }
@@ -589,6 +651,12 @@
                             <button type="submit">🔍</button>
                         </form>
                     </div>
+                    
+                    <!-- 등록 버튼 추가 -->
+                    <button class="register-btn" onclick="openCreatePost()">
+                        ✏️ 글 등록
+                    </button>
+                    
                     <div class="user-menu">
                         <button class="icon-btn">❤️</button>
                         <button class="icon-btn">💬</button>
@@ -701,6 +769,11 @@
         </div>
     </div>
 
+    <!-- 플로팅 등록 버튼 -->
+    <button class="floating-register-btn" onclick="openCreatePost()" title="구매 요청 등록">
+        ✏️
+    </button>
+
     <script>
         // 샘플 상품 데이터
         const products = [
@@ -781,6 +854,12 @@
             renderProducts();
             setupEventListeners();
         });
+
+        // 구매 요청 등록 페이지 열기
+        function openCreatePost() {
+            alert('구매 요청 등록 페이지로 이동합니다.');
+            // 실제로는 구매 요청 작성 페이지로 이동
+        }
 
         // 이벤트 리스너 설정
         function setupEventListeners() {
