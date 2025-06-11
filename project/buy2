@@ -621,6 +621,16 @@
                 gap: 8px;
             }
         }
+        .btn-outline {
+            background: transparent;
+            color: #007bff;
+            border: 2px solid #007bff;
+        }
+
+        .btn-outline:hover {
+            background: #007bff;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -653,10 +663,14 @@
                     </div>
                     
                     <!-- 등록 버튼 추가 -->
+                    <div>
+                    
+                  
                     <button class="register-btn" onclick="openCreatePost()">
                         ✏️ 글 등록
                     </button>
-                    
+                    <a href="#" class="btn btn-outline">로그인</a>
+                    </div>
                     <div class="user-menu">
                         <button class="icon-btn">❤️</button>
                         <button class="icon-btn">💬</button>
