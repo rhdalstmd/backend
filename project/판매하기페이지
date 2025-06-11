@@ -180,7 +180,7 @@
         .floating-register-btn:hover {
             background-color: #2563eb;
             transform: scale(1.1);
-            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+            box-shadow: 0 6px 20px rgba(59, 120, 246, 0.4);
         }
 
         /* 구매 페이지 스타일 */
@@ -621,6 +621,16 @@
                 gap: 8px;
             }
         }
+        .btn-outline {
+            background: transparent;
+            color: #007bff;
+            border: 2px solid #007bff;
+        }
+
+        .btn-outline:hover {
+            background: #007bff;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -652,11 +662,15 @@
                         </form>
                     </div>
                     
-                    <!-- 등록 버튼 추가 -->
+                   
+                   <div>
+                   
+                   <!-- 등록 버튼 추가 -->
                     <button class="register-btn" onclick="openCreatePost()">
-                        ✏️ 글 등록
+                        ✏️ 글쓰기
                     </button>
-                    
+                    <a href="#" class="btn btn-outline">로그인</a>
+                    </div>
                     <div class="user-menu">
                         <button class="icon-btn">❤️</button>
                         <button class="icon-btn">💬</button>
