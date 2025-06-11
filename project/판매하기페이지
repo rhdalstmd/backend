@@ -654,7 +654,7 @@
                     
                     <!-- 등록 버튼 추가 -->
                     <button class="register-btn" onclick="openCreatePost()">
-                        ✏️ 판매 요청 등록
+                        ✏️ 글쓰기
                     </button>
                     
                     <div class="user-menu">
