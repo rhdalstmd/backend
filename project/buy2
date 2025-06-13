@@ -667,7 +667,7 @@
                     
                   
                     <button class="register-btn" onclick="openCreatePost()">
-                        ✏️ 글 등록
+                        ✏️ 글쓰기
                     </button>
                     <a href="#" class="btn btn-outline">로그인</a>
                     </div>
@@ -770,8 +770,105 @@
                         <div id="activeFilters"></div>
                     </div>
 
+                    <!-- 상품 그리드 - 하드코딩된 상품 카드 -->
                     <div class="product-grid" id="productGrid">
-                        <!-- 상품 카드들이 여기에 동적으로 생성됩니다 -->
+                        <!-- 상품 1 -->
+                        <div class="product-card" onclick="goToProduct(1)">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=아이폰+14+Pro" alt="아이폰 14 Pro">
+                                <button class="like-btn" onclick="toggleLike(event, this)">❤️</button>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">아이폰 14 Pro 128GB 딥퍼플 (배터리 100%) 삽니다</h3>
+                                <p class="product-price">850,000원</p>
+                                <div class="product-meta">
+                                    <span>📍 강남구</span>
+                                    <span>2시간 전</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 상품 2 -->
+                        <div class="product-card" onclick="goToProduct(2)">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=맥북+에어" alt="맥북 에어">
+                                <button class="like-btn" onclick="toggleLike(event, this)">❤️</button>
+                                <span class="status-badge reserved">예약중</span>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">맥북 에어 M2 13인치 실버 (2022년형) 삽니다</h3>
+                                <p class="product-price">1,200,000원</p>
+                                <div class="product-meta">
+                                    <span>📍 서초구</span>
+                                    <span>5시간 전</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 상품 3 -->
+                        <div class="product-card" onclick="goToProduct(3)">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=에어팟+프로" alt="에어팟 프로">
+                                <button class="like-btn" onclick="toggleLike(event, this)">❤️</button>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">에어팟 프로 2세대 새상품 미개봉 삽니다</h3>
+                                <p class="product-price">280,000원</p>
+                                <div class="product-meta">
+                                    <span>📍 송파구</span>
+                                    <span>1일 전</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 상품 4 -->
+                        <div class="product-card" onclick="goToProduct(4)">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=닌텐도+스위치" alt="닌텐도 스위치">
+                                <button class="like-btn" onclick="toggleLike(event, this)">❤️</button>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">닌텐도 스위치 OLED 화이트 + 게임 5개 삽니다</h3>
+                                <p class="product-price">350,000원</p>
+                                <div class="product-meta">
+                                    <span>📍 마포구</span>
+                                    <span>2일 전</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 상품 5 -->
+                        <div class="product-card" onclick="goToProduct(5)">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=갤럭시+S23" alt="갤럭시 S23">
+                                <button class="like-btn" onclick="toggleLike(event, this)">❤️</button>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">갤럭시 S23 Ultra 256GB 팬텀블랙 삽니다</h3>
+                                <p class="product-price">750,000원</p>
+                                <div class="product-meta">
+                                    <span>📍 강서구</span>
+                                    <span>3일 전</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 상품 6 -->
+                        <div class="product-card" onclick="goToProduct(6)">
+                            <div class="product-image">
+                                <img src="https://via.placeholder.com/300x200/f3f4f6/9ca3af?text=아이패드+프로" alt="아이패드 프로">
+                                <button class="like-btn" onclick="toggleLike(event, this)">❤️</button>
+                                <span class="status-badge sold">판매완료</span>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-title">아이패드 프로 11인치 3세대 128GB WiFi 삽니다</h3>
+                                <p class="product-price">650,000원</p>
+                                <div class="product-meta">
+                                    <span>📍 노원구</span>
+                                    <span>4일 전</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- 더보기 버튼 -->
@@ -784,7 +881,7 @@
     </div>
 
     <!-- 플로팅 등록 버튼 -->
-    <button class="floating-register-btn" onclick="openCreatePost()" title="구매 요청 등록">
+    <button class="floating-register-btn" onclick="openCreatePost()" title="글쓰기">
         ✏️
     </button>
 
@@ -865,13 +962,13 @@
 
         // 페이지 로드 시 초기화
         document.addEventListener('DOMContentLoaded', function() {
-            renderProducts();
+            // 이미 HTML에 하드코딩되어 있으므로 초기 렌더링은 필요 없음
             setupEventListeners();
         });
 
         // 구매 요청 등록 페이지 열기
         function openCreatePost() {
-            alert('구매 요청 등록 페이지로 이동합니다.');
+            alert('글쓰기 페이지로 이동합니다.');
             // 실제로는 구매 요청 작성 페이지로 이동
         }
 
