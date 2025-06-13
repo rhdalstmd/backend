@@ -672,7 +672,7 @@
                     <a href="#" class="btn btn-outline">로그인</a>
                     </div>
                     <div class="user-menu">
-                        <button class="icon-btn">❤️</button>
+                        
                         <button class="icon-btn">💬</button>
                         <button class="icon-btn">👤</button>
                     </div>
